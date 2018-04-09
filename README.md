@@ -9,7 +9,6 @@ In three versions:
 ### FastFrameworkLite - Java
     Version lite in Java Android native.
 
-
 ### Scaffold - Java + Kotlin
     Version full in Java Android native and Kotlin.
 
