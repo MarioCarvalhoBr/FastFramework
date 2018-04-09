@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:context="br.embrapa.scaffold.view.activities.AboutActivity">
+
+		   <ScrollView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="16dp">
+
+				   <ImageView
+					   android:layout_width="90dp"
+					   android:layout_height="90dp"
+					   android:src="@mipmap/ic_launcher_round"
+					   android:paddingTop="5dp"
+					   android:id="@+id/iv_icon_launcher_app"
+					   android:gravity="center"
+					   android:layout_gravity="center_horizontal" />
+				   <TextView
+					   android:layout_width="match_parent"
+					   android:layout_height="wrap_content"
+					   android:layout_below="@+id/iv_icon_launcher_app"
+					   android:layout_marginTop="1dp"
+					   android:id="@+id/tv_name_of_project"
+					   android:textStyle="bold"
+					   android:gravity="center"
+					   android:text="@string/app_name"
+					   android:textAppearance="?android:attr/textAppearanceLarge"
+					   android:textColor="@color/black"/>
+				   <TextView
+					   android:layout_width="match_parent"
+					   android:layout_height="wrap_content"
+					   android:layout_below="@+id/tv_name_of_project"
+					   android:layout_marginTop="1dp"
+					   android:textSize="15dp"
+					   android:id="@+id/tv_version_app"
+					   android:gravity="center"
+					   android:text="@string/text_activity_about_app_version"
+					   android:textColor="@color/cardview_dark_background"/>
+				   <View
+					   android:id="@+id/divider"
+					   android:layout_width="wrap_content"
+					   android:layout_height="1dp"
+					   android:layout_marginTop="4dp"
+					   android:layout_margin="5dp"
+					   android:layout_below="@id/tv_title_informations"
+					   android:background="@color/md_black_1000_25" />
+				   <TextView
+					   android:layout_width="match_parent"
+					   android:layout_height="wrap_content"
+					   android:layout_below="@+id/viewSeparacao"
+					   android:layout_marginTop="4dp"
+					   android:id="@+id/tv_text_about"
+					   android:gravity="center"
+					   android:layout_margin="5dp"
+					   android:text="@string/text_activity_about_description_app">
+
+				   </TextView>
+
+				<View
+					   android:id="@+id/divider_2"
+					   android:layout_width="wrap_content"
+					   android:layout_height="1dp"
+					   android:layout_margin="5dp"
+					   android:layout_marginTop="5dp"
+					   android:layout_below="@id/tv_title_informations"
+					   android:background="@color/md_black_1000_25" />
+
+				<TextView
+					android:text="@string/text_activity_about_development_partnership"
+					android:layout_width="match_parent"
+					android:gravity="center"
+					android:layout_height="wrap_content"
+					android:layout_margin="5dp"/>
+
+				<ImageView
+					android:id="@+id/partners"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:adjustViewBounds="true"
+					android:layout_gravity="center_horizontal"
+					android:layout_margin="5dp"
+					android:src="@drawable/partners"
+					/>
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_activity_about_repository_or_site_project"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_repository_or_site_project_link"
+					android:autoLink="web"
+					android:gravity="center"
+					android:textStyle="bold"
+				/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_activity_about_development_team"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_development_team_member_2"
+					android:gravity="center"
+					android:textStyle="bold"/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_development_team_member_1"
+					android:gravity="center"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_activity_about_support"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="0dp"
+					android:text="@string/text_activity_about_support_entity_name_2"
+					android:gravity="center"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_support_entity_link_2"
+					android:autoLink="web"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="0dp"
+					android:text="@string/text_activity_about_support_entity_name_1"
+					android:gravity="center"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_support_entity_link_1"
+					android:autoLink="web"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_activity_about_special_thanks"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_special_thanks_person_1"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_special_thanks_person_2"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_special_thanks_person_3"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_activity_about_license_use"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:id="@+id/tv_license_use"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="@string/text_activity_about_license_use_title"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+
+			</LinearLayout>
+
+		</ScrollView>
+	</RelativeLayout>

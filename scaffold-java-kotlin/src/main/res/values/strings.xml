@@ -1,0 +1,134 @@
+<resources>
+    <!-- Aplication-->
+    <string name="app_name">Scaffold</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_navigation_drawer">Home Scaffold</string>
+
+    <!-- Activities-->
+
+    <!-- SplashScreemActivity -->
+    <string name="text_activity_splash_screen_wellcome">Seja bem-vindo(a) ao Scaffold</string>
+    <string name="text_activity_splash_screen_link_repository_project">https://git.cnpgc.embrapa.br/scaffold/android</string>
+
+    <!-- AboutActivity -->
+    <string name="text_activity_about_title_toolbar">Sobre o Scaffold</string>
+    <string name="text_activity_about_app_version">Versão: 0.1 Alpha</string>
+
+    <string name="text_activity_about_description_app">O Scaffold é um modelo de design eficiente para Android. Para simplificar o processo de desenvolvimento de um projeto Android.</string>
+    <string name="text_activity_about_development_partnership">Este aplicativo é um produto desenvolvido pela parceria entre a Universidade Federal de Mato Grosso do Sul (UFMS) e a Empresa Brasileira de Pesquisa Agropecuária (Embrapa).</string>
+
+    <string name="text_activity_about_repository_or_site_project">Repositório Oficial</string>
+    <string name="text_activity_about_repository_or_site_project_link">www.github.com/mariodearaujocarvalho/fastframework</string>
+
+    <string name="text_activity_about_development_team">Equipe de Desenvolvimento</string>
+    <string name="text_activity_about_development_team_member_1">Mário de Araújo Carvalho</string>
+    <string name="text_activity_about_development_team_member_2">Camilo Carromeu</string>
+
+    <string name="text_activity_about_support">Apoio</string>
+    <string name="text_activity_about_support_entity_name_1">UFMS</string>
+    <string name="text_activity_about_support_entity_link_1">www.ufms.br</string>
+    <string name="text_activity_about_support_entity_name_2">Embrapa Gado de Corte</string>
+    <string name="text_activity_about_support_entity_link_2">www.cnpgc.embrapa.br</string>
+
+    <string name="text_activity_about_special_thanks">Agradecimentos</string>
+    <string name="text_activity_about_special_thanks_person_1">Prof. Dr. Amaury Antônio de Casto Júnior</string>
+    <string name="text_activity_about_special_thanks_person_2">Dra. Dr. Anderson Corrêa Lima</string>
+    <string name="text_activity_about_special_thanks_person_3">Dra. Fabiana Villa Alves</string>
+
+    <string name="text_activity_about_license_use">LICENÇA DE USO</string>
+    <string name="text_activity_about_license_use_title">LICENSE BSD</string>
+    <string name="text_activity_about_license_use_title_body">"Copyright © 2017 Brazilian Agricultural Research Corporation (Embrapa) and Mário de Araújo Carvalho. All rights reserved.
+    Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice, this list of conditions, the following disclaimer and the down lists of holders and contributors.
+
+    2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, the following disclaimer and the down list of holders and contributors in the documentation and/or other materials provided with the distribution.
+
+    3. Neither the name of the holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+    4. Products derived from this software should reference it, as well the specific version from which it derived and the down list of holders, only in the "about" screen and documentation.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+    List of Holders:
+
+    - Brazilian Agricultural Research Corporation (Embrapa): http://embrapa.br
+    - FastFramework: FastFramework is an efficient Android design template: https://github.com/mariodearaujocarvalho/fastframework
+
+    List of Contributors:
+
+    - Camilo Carromeu: camilo.carromeu@embrapa.br
+    - Mário de Araújo Carvalho: mariodearaujocarvalho@gmail.com"</string>
+
+    <!-- AboutActivity-->
+
+    <!-- ItemActivity -->
+    <string name="text_activity_item_enter_the_item_data">Informe os dados do item</string>
+    <!-- ItemActivity -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="text_hint_search_menu">Digite sua pesquisa</string>
+    <string name="search_hint">Pesquisar</string>
+
+    <!-- Textos referentes aos titulos das Activities e Fragments -->
+
+    <string name="title_activity_item">Item</string>
+    <string name="title_activity_details_item">Detalhes do Item</string>
+    <string name="title_fragment_list_itens">Lista de Itens</string>
+    <string name="title_fragment_list_itens_favorites">Itens Favoritos</string>
+
+    <!-- Textos dos componentes das Activities e Fragments  -->
+    <string name="text_list_fragment_sem_itens">Não há itens! Clique no + para adicionar.</string>
+    <string name="text_list_fragment_com_itens">Lista de itens, clique para selecionar.</string>
+    <string name="text_list_fragment_favoritos_com_itens">Lista de itens favoritados, clique para selecionar.</string>
+    <string name="text_list_fragment_favoritos_sem_itens">Não há itens favoritados!</string>
+    <string name="text_list_atualizar_itens">Atualizando a lista de itens!</string>
+
+
+    <!-- Texto da função compartilhar o app -->
+    <string name="text_share_app">Olá!\n
+        Gostaria de compartilhar com você o aplicativo Scaffold.\n
+        O Scaffold é um modelo de design eficiente para Android. \n
+        Feito com o propósito de simplificar o processo de desenvolvimento de um projeto Android.\n
+        A framework tem como foco a praticidade, tornando-a assim, uma framework estremamente robusta.\n
+        Baixe e confira. :)\n
+        Disponível em:\n
+        https://play.google.com/store/apps/details?id=br.embrapa.scaffold
+        \n
+        \n
+        --\n
+        Enviado de Scaffold
+    </string>
+
+    <!--Arrays -->
+    <string-array name="alert_dialog_menu_options">
+        <item>Visualizar</item>
+        <item>Editar</item>
+        <item>Excluír</item>
+        <item>Copiar Item</item>
+        <item>Compartilhar</item>
+    </string-array>
+
+    <!-- Avisos e aletas -->
+    <string name="text_aviso_title">Aviso</string>
+    <string name="text_aviso_excluir_item">Deseja realmente APAGAR esse item?</string>
+    <string name="text_aviso_opcao_sim">Sim</string>
+    <string name="text_aviso_opcao_nao">Não</string>
+    <string name="text_aviso_campo_obrigatorio">Você deve preencher o campo </string>
+
+    <!-- Outras palavras e textos -->
+    <string name="text_copia">Cópia</string>
+    <string name="text_descricao">Descrição: </string>
+
+    <!-- Textos referentes as strings da Activity Sobre-->
+
+    <!-- URLS e Links-->
+    <string name="link_download_app_or_download_play_store">https://play.google.com/store/apps/details?id=br.embrapa.scaffold</string>
+
+    <!--Contatos, E-mails, Nomes de Pessoas etc -->
+    <string name="text_email_contact">mariodearaujocarvalho@gmail.com</string>
+    <string name="text_send_email_subject">Feedback Scaffold</string>
+
+</resources>

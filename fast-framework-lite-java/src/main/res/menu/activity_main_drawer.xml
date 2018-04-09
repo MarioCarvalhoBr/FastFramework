@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pessoas"
+            android:icon="@mipmap/ic_menu_pessoas"
+            android:title="Pessoas" />
+        <item
+            android:id="@+id/nav_estatisticas"
+            android:icon="@mipmap/ic_menu_estatisticas"
+            android:title="Estatisticas" />
+    </group>
+
+    <item android:title="Opçoes">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@mipmap/ic_menu_sobre"
+                android:title="Sobre" />
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@mipmap/ic_menu_sair"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
