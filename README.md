@@ -11,4 +11,6 @@ In three versions:
 
 ### Scaffold - Java + Kotlin
     Version full in Java Android native and Kotlin.
+# Ajude esse projeto a evoluir
+https://go.hotmart.com/M9471745B
 
