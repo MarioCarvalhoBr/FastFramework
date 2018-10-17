@@ -87,8 +87,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_sobre) {
             AlertDialog.Builder caixaDeDialogo = new AlertDialog.Builder(MainActivity.this);
             caixaDeDialogo.setTitle("Sobre");
-            caixaDeDialogo.setMessage("Projeto apresentado para obtenlçao de notas.\n\n" +
-                    "Autora: Brenda Medina");
+            caixaDeDialogo.setMessage("Projeto MVC DAO com os componentes básicos da API do Android.\n\n" +
+                    "Autor: Mário Carvalho");
             caixaDeDialogo.create().show();
 
         } else if (id == R.id.nav_sair) {
